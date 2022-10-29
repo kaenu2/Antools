@@ -8,7 +8,7 @@
 	<div class="wrapper">
 		@@include('html/header.html',{})
 		<main class="page">
-			<div class="page__home home">
+			<div id="home" class="page__home home">
 				<div class="home__container container">
 					<div class="home__content">
 						<div class="home__title">
@@ -69,7 +69,7 @@
 				</div>
 				<div class="home__img"><img src="./img/pageHomeBg.png" alt="pageHomeBg"></div>
 			</div>
-			<div class="page__popular popular">
+			<div id="popular" class="page__popular popular">
 				<div class="popular__container container">
 					<div class="popular__title">
 						<h2>Most Popular Tools</h2>
@@ -279,7 +279,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="page__newcomer newcomer">
+			<div id="newcomer" class="page__newcomer newcomer">
 				<div class="newcomer__container container">
 					<div class="newcomer__info">
 						<h2>Newcomer Tools</h2>
@@ -407,13 +407,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="page__blog blog">
+			<!-- <div class="page__blog blog">
 				<div class="blog__container container">
-					<!-- Slider main container -->
 					<div class="swiper">
-						<!-- Additional required wrapper -->
 						<div class="swiper-wrapper">
-							<!-- Slides -->
 							<div class="swiper-slide">
 								<div class="blog__content">
 									<img src="./img/sliderOne.png" alt="Photo" class="blog__img">
@@ -445,20 +442,14 @@
 								<button class="blog__btn btn">Open descreption</button>
 							</div>
 						</div>
-						<!-- If we need pagination -->
 						<div class="swiper-pagination"></div>
-
-						<!-- If we need navigation buttons -->
 						<div class="swiper-button-prev"></div>
 						<div class="swiper-button-next"></div>
-
-						<!-- If we need scrollbar -->
-						<!-- <div class="swiper-scrollbar"></div> -->
 					</div>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="page__contributor contributor">
+			<div id="contributor" class="page__contributor contributor">
 				<div class="contributor__container container">
 					<div class="contributor__info">
 						<div class="contributor__title">

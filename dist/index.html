@@ -17,8 +17,8 @@
 		<div class="header__menu menu">
 			<nav class="menu__body">
 				<ul class="menu__list">
-					<li><a href="#" class="menu__link">Home</a></li>
-					<li class="ar"><a href="#" class="menu__link ar-link">Popular</a>
+					<li><a href="#home" class="menu__link">Home</a></li>
+					<li class="ar"><a href="#popular" class="menu__link ar-link">Popular</a>
 						<!-- <span class="menu__arrow"></span>
 						<ul class="menu__sub-list">
 							<li><a href="#" class="menu__sub-link">Categories №1</a></li>
@@ -27,9 +27,9 @@
 							<li><a href="#" class="menu__sub-link">Categories №4</a></li>
 						</ul> -->
 					</li>
-					<li><a href="#" class="menu__link">Newcomer</a></li>
-					<li><a href="#" class="menu__link">Blog</a></li>
-					<li><a href="#" class="menu__link">Contributor</a></li>
+					<li><a href="#newcomer" class="menu__link">Newcomer</a></li>
+					<li><a href="#blog" class="menu__link">Blog</a></li>
+					<li><a href="#contributor" class="menu__link">Contributor</a></li>
 				</ul>
 				<div class="menu__buttons">
 					<a href="#" class="menu__button btn-grey">Login</a>
@@ -41,7 +41,7 @@
 	</div>
 </header>
 		<main class="page">
-			<div class="page__home home">
+			<div id="home" class="page__home home">
 				<div class="home__container container">
 					<div class="home__content">
 						<div class="home__title">
@@ -102,7 +102,7 @@
 				</div>
 				<div class="home__img"><img src="./img/pageHomeBg.png" alt="pageHomeBg"></div>
 			</div>
-			<div class="page__popular popular">
+			<div id="popular" class="page__popular popular">
 				<div class="popular__container container">
 					<div class="popular__title">
 						<h2>Most Popular Tools</h2>
@@ -312,7 +312,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="page__newcomer newcomer">
+			<div id="newcomer" class="page__newcomer newcomer">
 				<div class="newcomer__container container">
 					<div class="newcomer__info">
 						<h2>Newcomer Tools</h2>
@@ -440,13 +440,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="page__blog blog">
+			<!-- <div class="page__blog blog">
 				<div class="blog__container container">
-					<!-- Slider main container -->
 					<div class="swiper">
-						<!-- Additional required wrapper -->
 						<div class="swiper-wrapper">
-							<!-- Slides -->
 							<div class="swiper-slide">
 								<div class="blog__content">
 									<img src="./img/sliderOne.png" alt="Photo" class="blog__img">
@@ -478,20 +475,14 @@
 								<button class="blog__btn btn">Open descreption</button>
 							</div>
 						</div>
-						<!-- If we need pagination -->
 						<div class="swiper-pagination"></div>
-
-						<!-- If we need navigation buttons -->
 						<div class="swiper-button-prev"></div>
 						<div class="swiper-button-next"></div>
-
-						<!-- If we need scrollbar -->
-						<!-- <div class="swiper-scrollbar"></div> -->
 					</div>
 				</div>
-			</div>
+			</div> -->
 
-			<div class="page__contributor contributor">
+			<div id="contributor" class="page__contributor contributor">
 				<div class="contributor__container container">
 					<div class="contributor__info">
 						<div class="contributor__title">
